@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: skippin_work_website_production
-  username: skippin_work_website
-  password: <%= ENV["SKIPPIN_WORK_WEBSITE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
