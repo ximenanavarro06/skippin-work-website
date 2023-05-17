@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import { Icon } from 'semantic-ui-react'
+import { Link } from "react-router-dom"
 import page from "./images/page.png"
 import cutlogo from "./images/cutlogo.png"
 import veteran from "./images/veteran.png"
