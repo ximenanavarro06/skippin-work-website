@@ -13,9 +13,9 @@ ContactPage.destroy_all
 
 puts "✍🏻 Seeding about..."
 AboutPage.create!(
-    about_us: "I like boats I want to rent my boats.  I like money.",
-    who_we_are: "People duh",
-    purpose: "To make some money"
+    about_us: "We rent out high quality boats to help you enoy your visit to the Lake of the Ozarks.",
+    who_we_are: "We are a company who wants to ensure the best boat rental experience for your trip to the Lake of the Ozarks",
+    purpose: "Ensure happiness and fun at the lake."
 )
 
 puts "🏠 Seeding home..."
